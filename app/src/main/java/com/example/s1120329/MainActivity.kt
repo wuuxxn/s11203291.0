@@ -106,7 +106,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
             Text(
                 text = "您的成績 0 分",
                 fontSize = 18.sp,
-                modifier = Modifier.padding(bottom = 16.dp)
+                modifier = Modifier.padding(bottom = 16.dp) //
             )
             val activity = LocalContext.current as? Activity
             Button(
